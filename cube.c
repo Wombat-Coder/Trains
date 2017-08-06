@@ -75,7 +75,7 @@ init(void)
     0.0, 1.0, 0.);      /* up is in positive Y direction */
 
   /* Adjust cube position to be asthetic angle. */
-  glTranslatef(0.0, 0.0, -1.08);
+  glTranslatef(0.0, 0.0, -1.05);
   glRotatef(60, 1.0, 0.0, 0.0);
   glRotatef(-20, 0.0, 0.0, 1.0);
 }
